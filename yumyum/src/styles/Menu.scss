@@ -1,0 +1,212 @@
+@import "./global.scss";
+
+body {
+  background: url("../assets/images/backround.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  height: 1000px;
+  background-color: #8ED8BF;
+  
+}
+
+.menu-container {
+  background: #605858;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  width: 270px;
+  position: relative;
+  left: 40px;
+  top: -3rem;
+  height: 730px;
+  position: relative;
+  
+}
+
+.logo-icon {
+  position: absolute;
+  top: -61px;
+  left: -1rem;
+  width: 50px;
+}
+
+
+.cart-button {
+  position: absolute;
+  bottom: 76px;
+  left: 16rem;
+  background: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+
+.cart-badge {
+  position: absolute;
+  bottom: 35px; 
+  left: 30px;
+  background-color: red; 
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  border: 2px solid white;
+}
+
+
+.cart-button img {
+  width: 30px;
+  height: auto;
+  position: relative;
+  right: 2px;
+ 
+}
+
+.menu-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  right: 6rem;
+  bottom: 70px;
+}
+.menu-title2{
+  font-size: 17px;
+  position: relative;
+  right: 100px;
+  bottom: 1rem;
+  
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  
+}
+
+.menu-item {
+
+  margin: 10px 0;
+  padding: 4px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  cursor: pointer; /* Gör så att muspekaren ändras till hand */
+  position: relative;
+  right: 1rem;
+  transition: 0.3s;
+  position: relative;
+  bottom: 2rem;
+}
+
+.menu-text {
+  text-align: left;
+  width: 100%;
+  position: relative;
+  bottom: 2rem;
+  
+}
+
+.menu-text h2 {
+  font-size: 18px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.menu-text p {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0;
+}
+
+.menu-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  position: relative;
+  left: 6rem;
+  bottom: 107px;
+}
+
+.add-to-cart {
+  background: #fffefc;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  margin: auto;
+  width: 30px;
+  position: relative;
+  bottom: 7rem;
+  left: 7rem;
+
+}
+
+.dips-container {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 6rem;
+  
+}
+
+.dip-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.dip-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px; 
+  color: white;
+  min-width: 50px; 
+  max-width: 70px; 
+  height: 30px; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 6px;
+
+
+  &:hover {
+    background: white;
+    color: #5c4033;
+  }
+
+  
+}
+

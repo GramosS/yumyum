@@ -1,0 +1,88 @@
+@import "./global.scss";
+
+
+.order-container {
+  background: #605858;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  width: 350px;
+  height: 900px;
+  position: relative;
+  bottom: 2rem;
+}
+
+
+.order-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto;
+}
+
+
+.order-image {
+  width: 320px;
+  height: 300px;
+  display: block;
+  margin: 40px auto 20px;
+  position: relative;
+  top: 6rem;
+}
+
+
+.order-status {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  top: 3rem;
+}
+
+.order-eta {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  top: 2rem;
+}
+
+.order-number {
+  font-size: 19px;
+  color: #ccc;
+  position: relative;
+  top: 1rem;
+}
+
+
+.order-new,
+.order-receipt {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.order-new {
+  background: black;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 6rem;
+  height: 70px;
+}
+
+.order-receipt {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  top: 6rem;
+  height: 70px;
+}

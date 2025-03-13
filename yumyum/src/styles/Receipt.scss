@@ -1,0 +1,116 @@
+// 📜 receipt.scss - Styling för kvittosidan
+
+.receipt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #605858;
+    padding: 20px;
+    width: 346px;
+    height: 700px;
+    position: relative;
+    bottom: 4rem;
+  }
+  
+  .receipt-logo {
+    width: 70px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 4rem;
+    right: 8rem;
+  }
+  
+  .receipt-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .receipt-box-logo {
+    width: 60px;
+    margin-bottom: 10px;
+    
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .receipt-id {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .receipt-items {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .receipt-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }
+  
+  .item-quantity {
+    font-size: 12px;
+    color: #8d8c8c;
+  }
+  
+  .receipt-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+  }
+  
+  .receipt-tax {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .receipt-new-order {
+    background-color: #26201E;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    width: 350px;
+    max-width: 350px;
+    border-radius: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 80px;
+  }
+  
+  .receipt-new-order:hover {
+    background-color: #3A322F;
+    
+  }
+  
